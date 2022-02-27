@@ -1,7 +1,21 @@
 {
-    "modules": [
-        {
-             "commonModule.welcome": "In Deutsch : Wilkommen!"
+    "modules": {
+        "commonModule": {
+            "welcome": "Willkommen bei der Lokalisierungs-App!"
+        },
+        "module1": {
+            "simpleExample": "Einfaches Beispiel",
+            "button-title": "Tooltip der Willkommens-Schaltfläche",
+            "button-text": "Willkommens-Schaltfläche"
+        },
+        "module2": {
+            "advancedExample": "Erweiterte dynamische Variable Beispiel",
+            "message1": "Ich habe {catCount} Katzen und {dogCount} Hunde",
+            "message2": "Fast {pctBlack, number, ::percent} von ihnen sind schwarz.",
+            "message3": "Der Coupon läuft um {expires, time}. Uhr ab."
+        },
+        "module3": {
+            "componentInjection": "Möchten Sie etwas suchen?{break2}Gehe zu <link-to-google>Google</link-to-google>"
         }
-    ]
+    }
 }
