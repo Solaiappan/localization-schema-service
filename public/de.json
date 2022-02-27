@@ -1,7 +1,7 @@
 {
     "modules": [
         {
-             "module.welcome": "In Deutsch : Wilkommen!"
+             "commonModule.welcome": "In Deutsch : Wilkommen!"
         }
     ]
 }
