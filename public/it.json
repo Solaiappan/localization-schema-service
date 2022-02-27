@@ -10,7 +10,7 @@
         },
         "module2": {
             "advancedExample": "Esempio di variabile dinamica avanzata",
-            "message1": "Ho {catCount} gatti e 2 {dogCount}",
+            "message1": "Ho {catCount} gatti e {dogCount} cani",
             "message2": "Quasi il {pctBlack, number, ::percent} di loro sono neri.",
             "message3": "Il coupon scade alle {expires, time, short}."
         },
