@@ -1,0 +1,21 @@
+{
+    "modules": {
+        "commonModule": {
+            "welcome": "¡Bienvenido a la aplicación de localización!"
+        },
+        "module1": {
+            "simpleExample": "Ejemplo sencillo",
+            "button-title": "Información sobre el botón de bienvenida",
+            "button-text": "Botón de bienvenida"
+        },
+        "module2": {
+            "advancedExample": "Ejemplo de variable dinámica avanzada",
+            "message1": "Tengo {catCount} gatos y {dogCount} perros.",
+            "message2": "Casi el {pctBlack, number, ::percent} de ellos son negros.",
+            "message3": "El cupón expira a las {expires, time}."
+        },
+        "module3": {
+            "componentInjection": "¿Quiere buscar algo?{break2}Ir a <link-to-google>Google</link-to-google>"
+        }
+    }
+}

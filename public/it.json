@@ -1,7 +1,21 @@
 {
-    "modules": [
-        {
-             "module.welcome": "In Italian : Wilkommen!"
+    "modules": {
+        "commonModule": {
+            "welcome": "Benvenuti all'applicazione di localizzazione!"
+        },
+        "module1": {
+            "simpleExample": "Esempio semplice",
+            "button-title": "Tooltip per il pulsante di benvenuto",
+            "button-text": "Pulsante di benvenuto"
+        },
+        "module2": {
+            "advancedExample": "Esempio di variabile dinamica avanzata",
+            "message1": "Ho {catCount} gatti e {dogCount} cani",
+            "message2": "Quasi il {pctBlack, number, ::percent} di loro sono neri.",
+            "message3": "Il coupon scade alle {expires, time, short}."
+        },
+        "module3": {
+            "componentInjection": "Vuoi cercare qualcosa?{break2}Vai a <link-to-google>Google</link-to-google>"
         }
-    ]
+    }
 }
